@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Vidro</title>
+</head>
+<body class="corpo">
+    <section class="container">
+        <h1 class="text"> Hello word </h1> 
+        
+        <ul>
+            <li>
+                Serviços
+            </li>
+            <li>
+                Orçamentos
+            </li>
+            <li>
+                Agendamentos
+            </li>
+        </ul>
+        </section>
+
+    <p>Aúdio</p>
+    <audio src="https://www.youtube.com/watch?v=m6rVnFKVpKg"></audio>
+    <button class="botao">Play</button>
+    <script>
+        const button= document.querySelector(button)
+        button.addEventListener('click',function(){
+            const audio=document.querySelector('audio')
+            audio.play()
+        })
+    </script>
+</body>
+</html>

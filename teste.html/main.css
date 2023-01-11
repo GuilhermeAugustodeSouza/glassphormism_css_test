@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 25rem;
+    font-size: large;
+
+}
+body{
+    background-image:url(./imagem/548306.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.container{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%,-50%);
+
+}
+
+
+.botao{
+    display: flex;
+     width: 30px;
+    height: 20px;o
+  
+    align-items: center;
+    justify-content: center;
+    font-size: 25rem;
+    font-size: large;
+}
